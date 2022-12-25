@@ -1,13 +1,6 @@
 const reverseString = function(str) {
-    final = "";
+    return str.split("").reverse().join(" ")
 
-    let i = str.length-1;
-
-    while (i>=0){
-        final+=str[i]
-        i--;
-    }
-    return final
 };
 
 // Do not edit below this line
